@@ -14,6 +14,10 @@ def print_extracted_data(faulty_product_table, faulty_ci_table, git_sonar_table)
     print(git_sonar_table.head())
 
 
+
+def create_objects_from_date()
+
+
 def main():
 
     file_path = '../data/mapping.xlsx'
