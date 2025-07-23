@@ -16,7 +16,7 @@ def print_extracted_data(faulty_product_table, faulty_ci_table, git_sonar_table)
 
 def main():
 
-    file_path = 'mapping.xlsx'
+    file_path = '../data/mapping.xlsx'
 
     faulty_product_df, faulty_ci_df, git_sonar_df = extract_data_from_excel(file_path)
     print_extracted_data(faulty_product_df, faulty_ci_df, git_sonar_df)
