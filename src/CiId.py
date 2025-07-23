@@ -2,8 +2,8 @@ import re
 
 
 class CiId:
-    def __init__(self, ci_string_id):
-        self.associated_trigram = ""
+    def __init__(self, ci_string_id, associated_trigram):
+        self.associated_trigram = associated_trigram
         self.name = ""
         self.code = ""
         self.parse_properties(ci_string_id)
