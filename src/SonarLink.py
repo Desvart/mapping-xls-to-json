@@ -7,3 +7,9 @@ class SonarLink:
 
     def __str__(self):
         return self.associated_trigram + " - " + self.sonar_url + " - " + self.git_repo_base_url
+
+    def export(self):
+        return {
+            "sonarqube_url": self.git_repo_base_url,
+            "git_repo_url": self.sonar_url
+        }
